@@ -9,6 +9,7 @@ import VueMultiselect5 from "@/views/vue-multiselect-5.vue";
 import VueMultiselect7 from "@/views/vue-multiselect-7.vue";
 import VueMultiselect8 from "@/views/vue-multiselect-8.vue";
 import VueMultiselect9 from "@/views/vue-multiselect-9.vue";
+import VueMultiselect10 from "@/views/vue-multiselect-10.vue";
 
 Vue.use(VueRouter);
 
@@ -57,6 +58,11 @@ const routes = [
     path: "/ex9",
     name: "vue-multiselect-9",
     component: VueMultiselect9,
+  },
+  {
+    path: "/ex10",
+    name: "vue-multiselect-10",
+    component: VueMultiselect10,
   },
 ];
 

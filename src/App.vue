@@ -9,7 +9,8 @@
       <router-link :to="{ name: 'vue-multiselect-5' }">Ex5</router-link>|
       <router-link :to="{ name: 'vue-multiselect-7' }">Ex7</router-link>|
       <router-link :to="{ name: 'vue-multiselect-8' }">Ex8</router-link>|
-      <router-link :to="{ name: 'vue-multiselect-9' }">Ex9</router-link>
+      <router-link :to="{ name: 'vue-multiselect-9' }">Ex9</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-10' }">Ex10</router-link>
     </div>
     <router-view />
   </div>
