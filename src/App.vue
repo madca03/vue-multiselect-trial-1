@@ -1,8 +1,15 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-1' }">Ex1</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-2' }">Ex2</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-3' }">Ex3</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-4' }">Ex4</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-5' }">Ex5</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-7' }">Ex7</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-8' }">Ex8</router-link>|
+      <router-link :to="{ name: 'vue-multiselect-9' }">Ex9</router-link>
     </div>
     <router-view />
   </div>
